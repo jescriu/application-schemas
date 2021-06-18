@@ -48,7 +48,7 @@
 				</xs:sequence>
 			</xs:restriction>
 		</xs:complexContent>
-	</xs:complexType>
+	</xs:complexType>
 	<!--Interoperability-->
 	<xs:complexType name="resLocInspireInteroperabilityRegulation_hrv">
 		<xs:complexContent>
