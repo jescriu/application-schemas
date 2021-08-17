@@ -1,0 +1,37 @@
+# INSPIRE XML schemas
+
+The INSPIRE data specifications Technical Guidelines define the data models under the scope of the Directive, formalised as UML application schemas. GML application schemas (xml schemas) are derived from them as the default encoding option for all INSPIRE spatial data themes. 
+
+The above-mentioned xml schemas are made available in the official INSPIRE schema repository at https://inspire.ec.europa.eu/schemas. INSPIRE data resources should make use of XML schemas available on it.
+
+## XML schemas XML schemas repository
+
+Explain the structure of the repository:
+Level 1
+- Application schema (thematic)
+Last versions of the
+- Deprecated application schemas - history of versions delivered
+
+Level 2
+- Version of schemas
+
+DERIVED FROM COMMENT FROM HEIDI AT https://github.com/INSPIRE-MIF/application-schemas#readme - INTEGRATE? [
+The official repository also contains contains XML schemas used in the Extended Capabilities section of INSPIRE spatial data (WxS) services based on Open Geospatial Consortium (OGC) standards. 
+]
+
+## Rules applied to versions XML schemas
+
+TO BE UPDATED [
+For the discussion about the deadlines, different types of updates were distinguished: 
+•	a new major version (e.g. v3.x --> v4.0), which is not backwards-compatible, i.e. existing data valid according to the older schema will no longer be valid according to the newer schema. Examples for non-backwards compatible changes include e.g. adding or removing mandatory properties or changing the types or names of existing properties; 
+•	a new minor version (e.g. v3.0.x --> v3.1), which is backwards-compatible, i.e. existing data valid according to the older schema will remain valid also according to the newer schema. Examples for backwards compatible changes include e.g. adding optional properties to existing types or adding new types; 
+•	a new bugfix version (e.g. v3.0 --> 3.0.1), which fixes an error in the schema. Bugfix versions are usually not backwards-compatible. 
+
+Based on feedback from MIG-T, the following time periods were agreed: 
+•	Deprecated versions should no longer be used after 2 years after a major release 
+•	Deprecated versions should no longer be used after 1 year after a bugfix release 
+•	There should not be specific deadlines for minor versions, i.e. the deprecated minor version can still be used as long as the corresponding major version may be used. 
+
+It should be noted that, since the schemas are not legally required, these dates can only be recommendations.
+]
+
