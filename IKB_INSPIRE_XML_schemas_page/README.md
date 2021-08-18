@@ -25,10 +25,10 @@ Validation against the set of endorsed XML schemas using the [INSPIRE Reference 
 
 ### Additional contents
 TO BE CONSIDERED - TEXT INCLUDED BY HEIDI AT https://github.com/INSPIRE-MIF/application-schemas#readme [
-The official repository also contains contains XML schemas used in the Extended Capabilities section of INSPIRE spatial data (WxS) services based on Open Geospatial Consortium (OGC) standards. 
+The official repository also contains contains XML schemas used in the Extended Capabilities section of INSPIRE spatial data (WxS) services based on Open Geospatial Consortium (OGC) standards. ]
 
-TBD If considered - Inform where these additional schemas are accessible.
-]
+TBD - If considered the lastest comment: Inform where these additional schemas are accessible.
+
 
 ## Rules applied in versioning INSPIRE XML schemas
 The version assigned to an INSPIRE XML application schema adheres to the **'X.Y.Z' pattern**, where:
