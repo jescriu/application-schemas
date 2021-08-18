@@ -4,7 +4,7 @@ The INSPIRE data specifications Technical Guidelines define the data models unde
 
 INSPIRE xml schemas are made available in the [official INSPIRE schema repository](https://inspire.ec.europa.eu/schemas). INSPIRE data resources should make use of XML schemas available on it.
 
-## INSPIRE XML schema repository - Structure & Content
+## INSPIRE XML schema repository - Location & Structure
 
 **The official repository of INSPIRE XML schemas is available at https://inspire.ec.europa.eu/schemas** - It contains both, the last version of XML schemas endorsed by MIG and deprecated (older) versions of the schemas - the latter ones provided for reference as well as supporting a smooth transition to the former (endorsed) ones.
 
@@ -13,6 +13,8 @@ The repository is **organised in folders and sub-folders** as indicated below:
 * **A first level of folders, each of them corresponding to an specific INSPIRE thematic-related application schema**, and named according the abbreviated name of the application schema defined in the data specification.
 
 * Each first level folder contains **sub-folders (second level) named according to the corresponding version of INSPIRE XML schemas**. Each sub-folder contains the corresponding XML schema files (.xsd) associated to this specific version.
+
+## INSPIRE XML schema repository - Content
 
 ### Last version of XML schemas endorsed by MIG
 **The last version of INSPIRE XML schemas endorsed by the Maintenance and Implementation Group (MIG) are available in the repository at https://inspire.ec.europa.eu/schemas/*folder*/** , where *folder* corresponds to an specific application schema abbreviated name. 
