@@ -12,7 +12,7 @@ The repository is **organised in folders and sub-folders** as indicated below:
 
 * **A first level of folders, each of them corresponding to an specific INSPIRE thematic-related application schema**, and named according the abbreviated name of the application schema defined in the data specification.
 
-* Each first level folder contains **sub-folders (second level) named according to the corresponding version of INSPIRE XML schemas**. Each sub-folder contains the corresponding XML schema files (.xsd).
+* Each first level folder contains **sub-folders (second level) named according to the corresponding version of INSPIRE XML schemas**. Each sub-folder contains the corresponding XML schema files (.xsd) associated to this version.
 
 ### Last version of XML schemas endorsed by MIG
 **The last version of INSPIRE XML schemas endorsed by the Maintenance and Implementation Group (MIG) are available in the repository at https://inspire.ec.europa.eu/schemas/*folder*/** , where *folder* corresponds to an specific application schema abbreviated name. 
