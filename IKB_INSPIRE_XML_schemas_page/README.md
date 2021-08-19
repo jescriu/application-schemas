@@ -2,7 +2,7 @@
 
 The INSPIRE data specifications Technical Guidelines define the data models under the scope of the Directive, formalised as UML application schemas. GML application schemas (xml schemas) are derived from them as the default encoding option for all INSPIRE spatial data themes. 
 
-INSPIRE xml schemas are made available in the [official INSPIRE schema repository](https://inspire.ec.europa.eu/schemas). INSPIRE data resources should make use of XML schemas available on it.
+INSPIRE xml schemas are made available in the [official INSPIRE schema repository](https://inspire.ec.europa.eu/schemas), being the set of schemas that INSPIRE data resources should make use of.
 
 ## INSPIRE XML schema repository
 
@@ -12,7 +12,7 @@ INSPIRE xml schemas are made available in the [official INSPIRE schema repositor
 
 The repository is **organised in folders and sub-folders** as indicated below:
 
-* **A first level of folders, each of them corresponding to an specific INSPIRE thematic-related application schema**, and named according the abbreviated name of the application schema defined in the data specification.
+* **A first level of folders, each of them corresponding to an specific INSPIRE general or thematic-related application schema**, and named according the abbreviated name of the application schema defined in the data specification.
 
 * Each first level folder contains **sub-folders (second level) named according to the corresponding version of INSPIRE XML schemas**. Each sub-folder contains the corresponding XML schema files (.xsd) associated to this specific version.
 
@@ -71,6 +71,8 @@ It should be noted that, since the schemas are not legally required, the periods
 
 ### Location, Structure & Content of the repository
 
-**An additional repository is available at https://inspire.ec.europa.eu/draft-schemas which contains extended data models included in the Technical Guidelines**.
+**An additional repository is available at https://inspire.ec.europa.eu/draft-schemas which also contains the extended data models included in the Technical Guidelines**. Adoption of extended data models is not legally mandated by the Directive, but INSPIRE data and service providers are optionally able to use them for providing extended richer information in an interoperable way. Exemples of extended data models are the *Buildings Extended 2D* (*bu-ext2d*) and the *Buildings Extended 3D* (*bu-ext3d*) schemas.
 
 The structure used within this repository of draft XML schemas follows the same structure of folders and sub-folders and versioning rules explained above for the [official repository of INSPIRE XML schemas](https://inspire.ec.europa.eu/schemas).
+
+The draft XML schema repository is syncronised with the official repository of INSPIRE XML schemas. Both repositories are jointly updated when endorsed XML schema updates are carried out.
