@@ -8,7 +8,7 @@ INSPIRE xml schemas are made available in the [official INSPIRE schema repositor
 
 ### Location & Structure of the repository
 
-**The official repository of INSPIRE XML schemas is available at https://inspire.ec.europa.eu/schemas** - It contains the last version of XML schemas endorsed by MIG, but also archives deprecated (older) versions of the schemas for providing reference to historic schema versions and supporting a smooth transition in using the former (endorsed) ones.
+**The official repository of INSPIRE XML schemas is available at https://inspire.ec.europa.eu/schemas - It contains the last version of XML schemas endorsed by MIG**, but also archives deprecated (older) versions of the schemas for providing reference to historic schema versions and supporting a smooth transition in using the former (endorsed) ones.
 
 The repository is **organised in folders and sub-folders** as indicated below:
 
@@ -71,6 +71,6 @@ It should be noted that, since the schemas are not legally required, the periods
 
 ### Location, Structure & Content of the repository
 
-An additional repository is available at https://inspire.ec.europa.eu/draft-schemas** - It contains extended data models included in the Technical Guidelines.
+**An additional repository is available at https://inspire.ec.europa.eu/draft-schemas - It contains extended data models included in the Technical Guidelines**.
 
 The structure used within this repository of draft XML schemas follows the same structure of folders and sub-folders explained above for the [official repository of INSPIRE XML schemas](https://inspire.ec.europa.eu/schemas).
