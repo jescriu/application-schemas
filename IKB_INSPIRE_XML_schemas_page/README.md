@@ -35,23 +35,11 @@ TBD - If considered the lastest comment: Inform where these additional schemas a
 ### Rules applied in versioning INSPIRE XML schemas
 The version assigned to an INSPIRE XML application schema adheres to the **'X.Y.Z' pattern**, where:
 
-* **'X' is the major version number - Updates of this number** (e.g. 3.x --> v4.0) **are applied when there are changes or new addings to the applicable legal framework (e.g. Implementing Rules) which introduce breaking (i.e. non-backwards-compatible) changes in the XML schemas**. 
+* **'X' is the major version number - Updates of this number** (e.g. 3.x --> v4.0) **are applied when there are changes or new addings to the applicable legal framework (e.g. Implementing Rules) which introduce breaking (i.e. non-backwards-compatible) changes in the XML schemas**. Examples of these non-backwards compatible changes include e.g. adding or removing mandatory properties or changing the types or names of existing properties. Existing data valid according to the older schema will no longer be valid according to the newer schema.
 
-Examples of these non-backwards compatible changes include e.g. adding or removing mandatory properties or changing the types or names of existing properties.
+* **'Y' is the minor version number - Updates of this number** (e.g. 3.0.x --> v3.1) **are applied when non-breaking (i.e. backwards-compatible) changes are introduced in the XML schemas**. Examples of these backwards compatible changes include e.g. adding optional properties to existing types or adding new types. Existing data valid according to the older schema will also remain valid according to the newer schema.
 
-Existing data valid according to the older schema will no longer be valid according to the newer schema.
-
-* **'Y' is the minor version number - Updates of this number** (e.g. 3.0.x --> v3.1) **are applied when non-breaking (i.e. backwards-compatible) changes are introduced in the XML schemas**. 
-
-Examples of these backwards compatible changes include e.g. adding optional properties to existing types or adding new types.
-
-Existing data valid according to the older schema will also remain valid according to the newer schema.
-
-* **'Z' is the bugfix version number - Updates of this number** (e.g. 3.0 --> 3.0.1) **are applied when errors or bugs are fixed in the XML schemas**. Although bug-fixes are often breaking (i.e. non-backwards-compatible) changes, they could also correspond to non-breaking (i.e. backwards-compatible) changes.
-
-Examples of breaking bug-fixes include e.g. restrictions in cardinality of existing properties, adding mandatory associations to schema elements or changing the types assigned to schema elements. Examples of non-breaking bug-fixes include e.g. adding missing types or definitions to elements already defined in a schema.
-
-Existing data valid according to the older schema will only remain valid according to the newer schema in case of non-breaking bug-fixes. Otherwise te data will no longer be valid according to the newer schema.
+* **'Z' is the bugfix version number - Updates of this number** (e.g. 3.0 --> 3.0.1) **are applied when errors or bugs are fixed in the XML schemas**. Although bug-fixes are often breaking (i.e. non-backwards-compatible) changes, they could also correspond to non-breaking (i.e. backwards-compatible) changes. Examples of breaking bug-fixes include e.g. restrictions in cardinality of existing properties, adding mandatory associations to schema elements or changing the types assigned to schema elements. Examples of non-breaking bug-fixes include e.g. adding missing types or definitions to elements already defined in a schema. Existing data valid according to the older schema will only remain valid according to the newer schema in case of non-breaking bug-fixes. Otherwise te data will no longer be valid according to the newer schema.
 
 ### How long can the deprecated schemas still be used? 
 
@@ -59,11 +47,11 @@ Use of deprecated schemas is discouraged. XML schemas newly endorsed by MIG shou
 
 Based on feedback from MIG-T, the following indicative time periods are agreed for adopting any newly endorsed XML schemas: 
 
-* Deprecated versions should no longer be used after 2 years after a major release (corresponding to changes in the major version number).
+* **Deprecated versions should no longer be used after 2 years after a major release** (corresponding to changes in the major version number).
 
-* Deprecated versions should no longer be used after 1 year after a bugfix release (corresponding to changes in the bugfix version number).
+* **Deprecated versions should no longer be used after 1 year after a bugfix release** (corresponding to changes in the bugfix version number).
 
-* There should not be specific deadlines for minor releases (corresponding to changes in the minor version number), i.e. the deprecated minor version can still be used as long as the corresponding major version may be used. 
+* **There should not be specific deadlines for minor releases** (corresponding to changes in the minor version number), i.e. the deprecated minor version can still be used as long as the corresponding major version may be used. 
 
 It should be noted that, since the schemas are not legally required, the periods indicated above only constitute recommendations.
 
