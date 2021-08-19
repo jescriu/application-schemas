@@ -67,10 +67,10 @@ Based on feedback from MIG-T, the following indicative time periods are agreed f
 
 It should be noted that, since the schemas are not legally required, the periods indicated above only constitute recommendations.
 
-## INSPIRE draft XML schema repository - Location & Structure
+## INSPIRE draft XML schema repository
 
 ### Location, Structure & Content of the repository
 
-**An additional repository is available at https://inspire.ec.europa.eu/draft-schemas - It contains extended data models included in the Technical Guidelines**.
+**An additional repository is available at https://inspire.ec.europa.eu/draft-schemas which contains extended data models included in the Technical Guidelines**.
 
-The structure used within this repository of draft XML schemas follows the same structure of folders and sub-folders explained above for the [official repository of INSPIRE XML schemas](https://inspire.ec.europa.eu/schemas).
+The structure used within this repository of draft XML schemas follows the same structure of folders and sub-folders and versioning rules explained above for the [official repository of INSPIRE XML schemas](https://inspire.ec.europa.eu/schemas).
