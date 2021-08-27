@@ -27,7 +27,7 @@ Validation against the set of endorsed XML schemas using the [INSPIRE Reference 
 **Older versions of XML schemas**, which are no longer considered valid INSPIRE XML schemas but that were endorsed at a certain point in the past, **are available under the https://inspire.ec.europa.eu/schemas/deprecated/ folder of the repository**. The structure used within this special folder for deprecated XML schemas follows the same structure of folders and sub-folders explained above.
 
 #### Additional contents
-TO BE CONSIDERED - TEXT INCLUDED BY HEIDI AT https://github.com/INSPIRE-MIF/application-schemas#readme [
+TO BE CONSIDERED - TEXT INCLUDED AT https://github.com/INSPIRE-MIF/application-schemas#readme [
 The official repository also contains contains XML schemas used in the Extended Capabilities section of INSPIRE spatial data (WxS) services based on Open Geospatial Consortium (OGC) standards. ]
 
 TBD - If considered the lastest comment: Inform where these additional schemas are accessible.
@@ -40,6 +40,8 @@ The version assigned to an INSPIRE XML application schema adheres to the **'X.Y.
 * **'Y' is the minor version number - Updates of this number** (e.g. 3.0.x --> v3.1) **are applied when non-breaking (i.e. backwards-compatible) changes are introduced in the XML schemas**. Examples of these backwards compatible changes include e.g. adding optional properties to existing types or adding new types. Existing data valid according to the older schema will also remain valid according to the newer schema.
 
 * **'Z' is the bugfix version number - Updates of this number** (e.g. 3.0 --> 3.0.1) **are applied when errors or bugs are fixed in the XML schemas**. Although bug-fixes are often breaking (i.e. non-backwards-compatible) changes, they could also correspond to non-breaking (i.e. backwards-compatible) changes. Examples of breaking bug-fixes include e.g. restrictions in cardinality of existing properties, adding mandatory associations to schema elements or changing the types assigned to schema elements. Examples of non-breaking bug-fixes include e.g. adding missing types or definitions to elements already defined in a schema. Existing data valid according to the older schema will only remain valid according to the newer schema in case of non-breaking bug-fixes. Otherwise te data will no longer be valid according to the newer schema.
+
+NOTE: Once endorsed by MIG, several changes (which could be of different nature, either breaking and/or non-breaking changes) may be applied together within the same schema release. In these cases the versioning rule which prevails is the one corresponding to the change/s which most-affect the users, i.e. in descending order of affectation: breaking change / non-breaking change / bug-fix. 
 
 ### How long can the deprecated schemas still be used? 
 
