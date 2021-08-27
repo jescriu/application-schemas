@@ -24,7 +24,7 @@ The repository is **organised in folders and sub-folders** as indicated below:
 Validation against the set of endorsed XML schemas using the [INSPIRE Reference Validator](https://inspire.ec.europa.eu/validator) helps data providers, solution providers and national coordinators to check whether data sets meet the requirements defined in the INSPIRE Technical Guidelines. The validator also performs this check for network services and metadata.
 
 #### Deprecated XML schemas
-**Older versions of XML schemas**, which are no longer considered valid INSPIRE XML schemas but that were endorsed at a certain point in the past, **are available under the https://inspire.ec.europa.eu/schemas/deprecated/ folder of the repository**. The structure used within this special folder for deprecated XML schemas follows the same structure of folders and sub-folders explained above.
+**Older versions of an specific XML schema**, which are no longer considered valid INSPIRE XML schema versions but that were endorsed at a certain point in the past, **are available under the https://inspire.ec.europa.eu/schemas/*specific-schema*/deprecated/ sub-folder, placed within the folder corresponding to this specific schema**. The structure used within this special sub-folder for deprecated XML schemas follows the same second-level structure explained above.
 
 #### Additional contents
 TO BE CONSIDERED - TEXT INCLUDED AT https://github.com/INSPIRE-MIF/application-schemas#readme [
