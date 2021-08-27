@@ -65,6 +65,4 @@ It should be noted that, since the schemas are not legally required, the periods
 
 **An additional repository is available at https://inspire.ec.europa.eu/draft-schemas which also contains the extended data models included in the Technical Guidelines**. Adoption of extended data models is not legally mandated by the Directive, but INSPIRE data and service providers are optionally able to use them for providing extended richer information in an interoperable way. Exemples of extended data models are the *Buildings Extended 2D* (*bu-ext2d*) and the *Buildings Extended 3D* (*bu-ext3d*) schemas.
 
-The structure used within this repository of draft XML schemas follows the same structure of folders and sub-folders and versioning rules explained above for the [official repository of INSPIRE XML schemas](https://inspire.ec.europa.eu/schemas).
-
-The draft XML schema repository is syncronised with the official repository of INSPIRE XML schemas. Both repositories are jointly updated when endorsed XML schema updates are carried out.
+TO BE DISCUSSED [The draft XML schema repository is syncronised with the official repository of INSPIRE XML schemas. Both repositories are jointly updated when endorsed XML schema updates are carried out.]
