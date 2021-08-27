@@ -41,7 +41,9 @@ The version assigned to an INSPIRE XML application schema adheres to the **'X.Y.
 
 * **'Z' is the bugfix version number - Updates of this number** (e.g. 3.0 --> 3.0.1) **are applied when errors or bugs are fixed in the XML schemas**. Although bug-fixes are often breaking (i.e. non-backwards-compatible) changes, they could also correspond to non-breaking (i.e. backwards-compatible) changes. Examples of breaking bug-fixes include e.g. restrictions in cardinality of existing properties, adding mandatory associations to schema elements or changing the types assigned to schema elements. Examples of non-breaking bug-fixes include e.g. adding missing types or definitions to elements already defined in a schema. Existing data valid according to the older schema will only remain valid according to the newer schema in case of non-breaking bug-fixes. Otherwise te data will no longer be valid according to the newer schema.
 
-NOTE: Once endorsed by MIG, several changes (which could be of different nature, either breaking and/or non-breaking changes) may be applied together within the same schema release. In these cases the versioning rule which prevails is the one corresponding to the change/s which most-affect the users, i.e. in descending order of affectation: breaking change / non-breaking change / bug-fix. 
+NOTE: Once endorsed by MIG, several changes (which could be of different nature, either breaking changes, non-breaking changes and/or bug-fixes) may be applied together within the same schema release. In these cases the versioning rule which prevails is the one corresponding to the change/s which most-affect the users, i.e. in descending order of affectation: breaking change / non-breaking change / bug-fix. 
+
+Schema releases are foreseen twice a year (in January and June).
 
 ### How long can the deprecated schemas still be used? 
 
