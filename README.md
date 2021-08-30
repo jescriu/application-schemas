@@ -7,7 +7,7 @@ The INSPIRE XML schemas can be categorized in two categories:
 * GML application schemas, derived from the UML application schemas
 * XML schemas used in the Extended Capabilities section of INSPIRE spatial data services based on Open Geospatial Consortium (OGC) WxS Services
 
-The official location of the INSPIRE XML schemas — to be used within the INSPIRE resources — is, and will remain, https://inspire.ec.europa.eu/schemas. This repository is only a means to facilitate the change management process of the INSPIRE schemas.
+The official location of the INSPIRE XML schemas — to be used within the INSPIRE resources — is, and will remain, https://inspire.ec.europa.eu/schemas. This repository is only a means to facilitate the change management process of the INSPIRE schemas. An explanation of the content of the official location of the INSPIRE XML schemas is available [here](add link).
 
 ## Governance and release process
 
