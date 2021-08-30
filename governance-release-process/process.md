@@ -1,8 +1,19 @@
 # Management of changes to the INSPIRE schemas (UML models and XML schemas)
 
-This document describes the approach to be adopted for the management of changes to the INSPIRE schemas, meant as the combination of UML models and XML schemas. It covers the whole process from the initial stage of change proposal up to the final stage of endorsement and change implementation into a new release. It defines actors, responsibilities and timelines for each stage of the process, and the GitHub artefacts (issues and labels) to be used in each process.
+This document describes the approach to be adopted for the management and the release of changes to the INSPIRE schemas. It is organised in two sections.
 
-## Governance process
+The first section describes the **governance process** to manage changes to the INSPIRE schemas, from the initial stage of change proposal up to the final stage of endorsement and implementation of the changes into a new release. The process defines actors, responsibilities and timelines for each stage of the process, and the GitHub artefacts (issues and labels) to be used in each process.
+
+The second section describes the **release process** of the INSPIRE schemas. It defines the release plan of the schemas and explains the rules used to version new releases of the schemas.
+
+## Table of Contents
+
+* [Governance process](#governance)
+* [Release process](#release)
+  * [Release plan](#test)
+  * [Versioning of schemas](#versioning)
+
+## Governance process <a name="governance"></a>
 
 The process to update/change INSPIRE schemas varies depending on the type of change proposed and its foreseen impact. Based on this, different scenarios are envisaged. They are all captured in the flowchart below and described in the following. An overview of all the labels can be found on https://github.com/INSPIRE-MIF/application-schemas/labels.
 
@@ -22,7 +33,10 @@ If the change proposal is endorsed by the INSPIRE CT or by the MIG-T, respective
 
 If no objection is raised by MIG members during the two-week time window, or if the change proposal is endorsed by the MIG during the meeting, the JRC shall implement the change in the relevant schema and – if relevant – in the TG. Once this is done, the issue is finally closed. It must be noted that the TG will have their own governance process (defined in the [Technical Guidance documents repository](https://github.com/INSPIRE-MIF/technical-guidelines)), based on a specific group of actors (similar to the one for schemas) and a different release plan. If the endorsed change proposal has (also) an impact on the IR, the INSPIRE CT shall submit a proposal for a draft amendment of the IR. The endorsement of this proposal is subject to its own governance process (involving the Comitology procedure) and is outside the scope of the present document.
 
-## Release process
+
+## Release process <a name="release"></a>
+
+### Release plan <a name="test"></a>
 
 The release of the endorsed changes to the INSPIRE schemas happens twice a year and it is scheduled to take place by **January 31** and **July 31**. This means that:
 
@@ -31,6 +45,16 @@ The release of the endorsed changes to the INSPIRE schemas happens twice a year 
 
 In addition to the scheduled releases, hotfix releases of the schemas, i.e. releases that fix critical bugs, might be released at any time.
 
-All the releases, including a full changelog listing the changes made, are published (and will remain available) in the [Releases](https://github.com/INSPIRE-MIF/application-schemas/releases) page of this repository. After each release, the INSPIRE schemas at https://inspire.ec.europa.eu/schemas are updated accordingly.
+All the releases, including a full changelog listing the changes made, are published (and will remain available) in the [Releases](https://github.com/INSPIRE-MIF/application-schemas/releases) page of this repository. After each release, the official repository of the INSPIRE schemas at https://inspire.ec.europa.eu/schemas is updated accordingly.
 
-Each release will be identified by a sequential number, but the versioning of the INSPIRE schemas will be managed separately.
+Each release is identified by a sequential number _202X.Y_, where _202X_ identifies the year of the release and _Y_ identifies the sequential number of the release for that year. As an example, the schema releases in January and July 2022 will be identified by the progressive numbers _2022.1_ and _2022.2_, respectively.
+
+### Versioning of schemas <a name="versioning"></a>
+
+The versioning of the INSPIRE schemas, which determines the versions available in the official repository at https://inspire.ec.europa.eu/schemas, is performed according to the **X.Y.Z pattern**, where:
+
+* **X is the major version number**. Updates of this version number (e.g. v3.X --> v4.0) are applied as a consequence of changes to the applicable legal framework (e.g. Implementing Rules). These changes are always breaking (or non backwards-compatible), i.e. existing data valid according to the older schema will no longer be valid according to the newer schema. Examples of such non-backwards compatible changes include e.g. adding or removing mandatory properties or changing the types or names of existing properties.
+
+* **Y is the minor version number**. Updates of this version number (e.g. v3.0.X --> v3.1) are applied when changes to the schemas are non-breaking (or backwards-compatible), i.e existing data valid according to the older schema will also remain valid according to the newer schema. Examples of such backwards compatible changes include e.g. adding optional properties to existing types or adding new types. 
+
+* **Z is the bugfix version number**. Updates of this version number (e.g. v3.0 --> v3.0.1) are applied when errors or bugs are fixed in the XML schema. These changes can be breaking (or non-backwards-compatible) or non-breaking (or backwards-compatible). Examples of breaking bug-fixes include e.g. adding restrictions in cardinality of existing properties, adding mandatory associations to schema elements or changing the types assigned to schema elements. Examples of non-breaking bug-fixes include e.g. adding missing types or definitions to elements already defined in a schema.
