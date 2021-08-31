@@ -12,7 +12,7 @@ The repository is organised in folders and sub-folders as indicated below:
 
 * A **second level of sub-folders**, included in each first level folder, named according to the corresponding versions of the XML schemas. Each sub-folder contains the corresponding XML schema files (.xsd) associated to this specific version. As an example, the first level folder of the _base_ schemas includes the sub-folders https://inspire.ec.europa.eu/schemas/base/3.2 and https://inspire.ec.europa.eu/schemas/base/3.3.
 
-* A **sub-folder named _deprecated_**, included in each first level folder, including all the older versions of the XML schemas (i.e. versions which were endorsed and used in the past, but have been later substituted by new endorsed schemas). The structure of sub-folders used within this sub-folder follows the same second-level structure explained above.
+* A **sub-folder named ```deprecated```**, included in each first level folder, including all the older versions of the XML schemas (i.e. versions which were endorsed and used in the past, but have been later substituted by new endorsed schemas). The structure of sub-folders used within this sub-folder follows the same second-level structure explained above.
  
 The use of deprecated XML schemas is discouraged. The newly released XML schemas should be adopted by INSPIRE data providers within the shortest possible period of time, since the whole set of endorsed schemas constitutes the basis for ensuring conformance to the requirements defined in the INSPIRE Technical Guidelines. Also, the [INSPIRE Reference Validator](https://inspire.ec.europa.eu/validator) will always make use of the latest version of schemas in the tests.
 
